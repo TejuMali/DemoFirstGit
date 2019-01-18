@@ -7,7 +7,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Test 
 {
 	public static void main(String[] args)
+
 	{
+System.out.println("Github");
+
 		ApplicationContext aps=new AnnotationConfigApplicationContext(configuration.class);
 		Student studd=(Student) aps.getBean("x");
 		System.out.println("Student Roll no:"+studd.getRollno());
